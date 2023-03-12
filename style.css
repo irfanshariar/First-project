@@ -254,5 +254,24 @@ section .main .lang{
     font-size: 14px;
 }
 
+@media (max-width:768px){
+
+    section .main .searchbox .icon {
+        width:93%;
+        padding: 14px 12px;
+    }
+    .footer .row ul {
+            display: block;
+        }
+        section header {
+            width: 94%;
+        }
+        section .main .searchbox .search{
+            width: 254px;
+        }
+        section .main{
+            width: 363px;
+        }
+}
 
 
